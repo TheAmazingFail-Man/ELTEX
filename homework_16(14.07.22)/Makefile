@@ -14,3 +14,6 @@ task_3: task_3.c
 
 rm: pipe
 	rm -rf pipe
+
+clean:
+	rm -rf task_1 task_2_host task_2_user task_3

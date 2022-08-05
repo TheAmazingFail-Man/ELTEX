@@ -46,7 +46,7 @@ int main()
                 child = fork();
                 if (child) {
                     dup2(fildes[1], 1);
-                    //write(1, "^Z", 2);                //need fix
+                    write(1, feof, 1);                //need fix
                     //fputc((int)'\x1a', stdout);
                     waitpid(child, &status, 0);
                     exit(EXIT_SUCCESS);
