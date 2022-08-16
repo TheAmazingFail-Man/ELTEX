@@ -38,3 +38,4 @@ homework_21(27.07.22):
 homework_22(01.08.22) - broadcast/multicast  
 homework_23(04.08.22) - raw-сервер/udp-клиент  
 homework_25(09.08.22) - заполнение udp/ip заголовка на raw сокете  
+homework_26(10.08.22) - заполнение udp/ip/mac заголовка на raw сокете  
